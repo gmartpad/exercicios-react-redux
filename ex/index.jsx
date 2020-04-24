@@ -7,8 +7,10 @@ import Member from './member'
 
 
 ReactDOM.render(
-    <Family>
-        <Member name="Jorge" lastName="Josias"/>
+    <Family lastName="Josias">
+        <Member name="Jorge"/>
+        <Member name="Julia"/>
+        <Member name="Rafael"/>
     </Family>
     //<SilvaFamily/>
     // <div>
