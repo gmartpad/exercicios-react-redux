@@ -4,11 +4,13 @@ import ReactDOM from 'react-dom'
 //import SilvaFamily from './silvaFamily'
 // import Family from './family'
 // import Member from './member'
-import Componente from './classComponent'
+// import Componente from './classComponent'
+import Field from './field'
 
 
 ReactDOM.render(
-    <Componente label="Contador" initialValue={10}/>
+    <Field initialValue="mano"/>
+    // <Componente label="Contador" initialValue={10}/>
     // <Family lastName="Josias">
     //     <Member name="Jorge"/>
     //     <Member name="Julia"/>
