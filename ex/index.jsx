@@ -8,7 +8,7 @@ import Componente from './classComponent'
 
 
 ReactDOM.render(
-    <Componente value="jeej"/>
+    <Componente label="Contador" initialValue={10}/>
     // <Family lastName="Josias">
     //     <Member name="Jorge"/>
     //     <Member name="Julia"/>
