@@ -1,10 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 //import Primeiro, { Segundo } from './component'
-import SilvaFamily from './silvaFamily'
+//import SilvaFamily from './silvaFamily'
+import Family from './family'
+import Member from './member'
+
 
 ReactDOM.render(
-    <SilvaFamily/>
+    <Family>
+        <Member name="Jorge" lastName="Josias"/>
+    </Family>
+    //<SilvaFamily/>
     // <div>
     //     <Primeiro msg="é galerinha"/>
     //     <Segundo msg="Tomamo no cu"/>
