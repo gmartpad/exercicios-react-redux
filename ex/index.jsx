@@ -6,10 +6,17 @@ import ReactDOM from 'react-dom'
 // import Member from './member'
 // import Componente from './classComponent'
 import Field from './field'
+import { combineReducers, createStore } from 'redux'
+import { Provider } from 'react-redux'
 
+const reducers = combineReducers({
+    field: () => ({ value: 'Opa' })
+})
 
 ReactDOM.render(
-    <Field initialValue="mano"/>
+    <Provider store={createStore(reducers)}>
+        <Field initialValue="mano"/>
+    </Provider>
     // <Componente label="Contador" initialValue={10}/>
     // <Family lastName="Josias">
     //     <Member name="Jorge"/>
